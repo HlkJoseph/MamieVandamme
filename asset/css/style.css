@@ -1,38 +1,56 @@
  body{
- 
+ 	background-image: url('../images/background.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
  }
 
-#Logo {
-	position: absolute;	
-	height: 100px ;
-	width:100px;
-
+#logo {
+	height: 250px ;
+	width:px;
+	margin: 15px;
 }
 
 
-#logo_fb {position: absolute;	
-	 height: 50px ;
-	 width:50px;
-	 margin-top: 250px;
-
+#logo_fb {	
+	 height: 75px ;
+	 width:75px;
 }
 
-#logo_insta {position: absolute;	
-	 height: 50px ; 
-	 width:50px;
-	 margin-top: 250px;
-	 margin-left: 100px;
+#logo_insta {	
+	 height: 75px ; 
+	 width:75px;
 }
 
-#logo_pinterest {position: absolute;	
-	 height: 50px ; 
-	 width:50px;
-	 margin-top: 250px;
-	 margin-left: 50px;
+#logo_pinterest {	
+	 height: 75px ; 
+	 width:75px;
 }
 
-button{ 
- 
 
+#i_produits {
+	height: ; 
+	width:;
+}
+
+
+#i_actu{
+	height:  ; 
+}
+
+
+#i_livreor{
+	height: ; 
+	width:;
+}
+
+
+#i_quisommenous{
+	height:  ; 
+	width:;
+}
+
+.reseau { padding-top: 1px;
+			padding-left: 45px;
+	
 }
 
