@@ -1,0 +1,38 @@
+ body{
+ 
+ }
+
+#Logo {
+	position: absolute;	
+	height: 100px ;
+	width:100px;
+
+}
+
+
+#logo_fb {position: absolute;	
+	 height: 50px ;
+	 width:50px;
+	 margin-top: 250px;
+
+}
+
+#logo_insta {position: absolute;	
+	 height: 50px ; 
+	 width:50px;
+	 margin-top: 250px;
+	 margin-left: 100px;
+}
+
+#logo_pinterest {position: absolute;	
+	 height: 50px ; 
+	 width:50px;
+	 margin-top: 250px;
+	 margin-left: 50px;
+}
+
+button{ 
+ 
+
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mamie Vandamme</title>
+</head>
+<body>
+
+
+<h1>Inscription</h1>
+
+<form id="fromInscription" method="post">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-2">
+				<div class="alert alert-danger" role="alert">
+		  			Texte de l'alerte
+				</div>
+			</div>
+		</div>
+
+	<div class="row">
+		<div class="col-sm-6 col-md-6 col-lg-2">
+			<div class="form-group">
+				<label>Pseudonyme* : </label>
+				<input type="text" name="pseudo" placeholder="Votre Pseudo" required="required">
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-6 col-lg-2">
+			<div class="form-group">
+				<label>Mot de passe* :</label>
+				<input minlength="6" autocomplete="current_passeword" maxlength="40" type="password" name="userpassword" id="userpassword" placeholder="Votre mdp" required="required">
+			</div>		
+		</div>
+	</div>
+
+
+		<div class="row">
+			<div class="col-sm-6 col-md-6 col-lg-2">
+				<div class="form-group">
+					<label>Email* :</label>
+					<input type="email" name="email" id="email" placeholder="Votre Email" required="required">
+				</div>
+
+				<div class="col-sm-6 col-md-6 col-lg-2">
+					<label>Adresse postal* :</label>
+					<textarea name="adresse" id="adresse" placeholder="Entrez votre adresse"></textarea>
+				</div>
+
+			</div>
+
+
+	<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-2">
+				<div class="form-group">
+					<input type="checkbox" name="newsletterAcceptee" id="newsletterAcceptee">
+					<label for="newsletterAcceptee">Voulez vous reçevoir nos Newsletter et nos promotion sur votre adresse Email.</label>
+				</div>	
+			</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-2">
+				<button type="button" class="btn btn-dark">Validez</button>
+		</div>
+		
+	</div>
+
+
+</form>
+
+
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
