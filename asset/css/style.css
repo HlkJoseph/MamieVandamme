@@ -6,7 +6,9 @@
 
 #logo {
 	height: 250px ;
-	width:px;
+
+	width: ;
+
 	margin: 15px;
 }
 
@@ -54,3 +56,6 @@
 	
 }
 
+.footer {
+	padding-bottom: 0px;
+}
