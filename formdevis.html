@@ -4,7 +4,7 @@
 	 <link rel="stylesheet" href="css/bootstrap.min.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mamie Vandamme/Temoignage</title>
+	<title>Mamie Vandamme/Devis</title>
 
 	<style>
 		.card {
@@ -13,19 +13,18 @@
 	</style>
 </head>
 <body>
-	
-<div class="container">
-	<div class="row">
-		<div class="col-12" style="text-align: center;">
-			<h1>Partagez vos expériences et vos photos&nbsp;!</h1>
-			<p></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-12" style="text-align: center;">
+				<h1>Demandez un devis gratuit&nbsp;!</h1>
+				<p></p>
+			</div>
 		</div>
 	</div>
-</div>
 
 <div class="container">
 	<div class="row">
-		<form id="formTemoignage" method="post">
+		<form id="formDevis" method="post">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -39,7 +38,6 @@
 						<div class="form-group">
 							<label>Prénom* :</label>
 							<input type="text" class="form-control" placeholder="Prénom">
-							<small class="form-text text-muted">Seul votre prénom sera cité.</small>
 						</div>		
 					</div>
 
@@ -53,26 +51,48 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-12">
-						<p>Vous avez apprécié les gâteaux de Mamie Vandamme ?</p>
-							<p>Alors faites plaisir à Mamie, et laissez un témoignage dans son Livre d'Or !</p>
-						<p>Quelques mots et une photo la combleront de bonheur !</p>
-
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="Adresse">Adresse* : </label>
+							<input type="text" class="form-control" id="adresse"
+							placeholder="Adresse">
+			    			<small id="adresse" class="form-text text-muted">Adresse de livraison ou de la prestation</small>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="form-group">
+			    			<label for="telephone">Téléphone* :</label>
+			    			<input type ="text" class="form-control" id="telephone" placeholder="Téléphone">
+			    			<small id="emailHelp" class="form-text text-muted">Votre numéro téléphone est utilisé pour vous contacter en cas de besoin et ne sera jamais communiqué à des tiers</small>
+			  			</div>
 					</div>
 				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<p></p>
+							<label for="descriptif">Descriptif, plan ou photo (optionnel)</label>
+							<input type="file" class="form-control-file" id="descriptif">
+						</div>
+					</div>
 
-				<div class="form-group">
-					<p></p>
-					<label for="exampleFormControlFile1">Envoyez-nous votre plus belle photo !</label>
-					<input type="file" class="form-control-file" id="exampleFormControlFile1">
+					<div class="col-md-6">
+						<div class="form-group">
+							<p></p>
+							<label for="date">Date de la livraison ou de la prestation* :</label>
+							<input type="date" class="form-control-file" id="date">
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-12">
 						<div class="form-group">
 							<p></p>
-							<label for="Demande">Votre commentaire* :</label>
-			    			<textarea class="form-control" id="Demande" rows="3"></textarea>
+							<label for="Demande">Descriptif* :</label>
+			    			<textarea class="form-control" id="Demande" rows="8"></textarea>
 			  			</div>
 					</div>
 				</div>
@@ -81,23 +101,12 @@
 					<div class="col-md-6">
 						<p>Les champs marqués d'un astérisque * sont obligatoires.</p>
 						<button type="button" class="btn btn-dark">Envoyer</button>
-					</div>
+						</div>
 				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<p></p>
-						<p>Mamie Vandamme est également très présente sur les réseaux sociaux.</p>
-						<p>N'hésitez pas à visiter, alimenter et liker nos pages Facebook, Instagram et Pinterest...</p>
-					</div>
-				</div>
-
-
 			</div>
 		</form>
 	</div>
 </div>
-
 
 	<script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
