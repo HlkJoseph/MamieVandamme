@@ -3,10 +3,24 @@
  	background-repeat-x: no-repeat;
  	background-size: 100%;
  	background-repeat-y:repeat;
+ 	background-attachment: fixed;
+ 	problème opacity: mettre seulement sur background 
+
 
  }
 
- @media (max-width: 600px){}
+ @media (max-width: 600px) {
+ 	body {
+ 		background-image: url('../images/fondportable.png');
+ 		background-repeat-x:no-repeat;
+ 		background-size: 100%;
+ 		background-repeat-y:repeat;
+ 		background-attachment: fixed;
+ 	}
+ 	}
+ } 
+
+ }
 
 #logo {
 	height: 250px ;
@@ -20,24 +34,47 @@
 #logo_fb {	
 	 height: 75px ;
 	 width:75px;
+	 margin-top: -200px;
 }
 
 #logo_insta {	
 	 height: 75px ; 
 	 width:75px;
+	 margin-top: -200px;
 }
 
 #logo_pinterest {	
 	 height: 75px ; 
 	 width:75px;
+	 margin-top: -200px;
 }
 
-#logo_newsletter {
+
+#zone_text {
+	z-index:666
+  border: 10px solid #e2921e;
+  height: 400px; 
+  width : 400px;
+  overflow: ;
+  margin-top: -50px;
+  margin-left:100px;
+
+  
+
+
+  font-size: xx-large ;
+  text-decoration: bold ; 
+
+
+}
+
+logo_newsletter {
 	height: auto;
 	width: auto;
 	position: static;
-	margin-left:250px;
-	top :0px;
+	margin-left:150px;
+	top :0px; 
+
 }
 
 #i_produits {
@@ -56,16 +93,23 @@
 	width:;
 }
 
-
 #i_quisommenous{
-	height:  ; 
-	width:;
+	height:auto ; 
+	width:auto;
 }
 .icone_accueil {
-	height: auto;
-	width: auto;
+	height: 150px;
+	width: 450px;
 	position: sticky;
 	margin-top: 15px;
+}
+.picture_corner_right { 
+	background-position:fixed;
+	height: 400px;
+	width: auto;
+ 	margin-top: 25px;
+ 	margin-right: 25px;
+ 	opacity: 0.6;
 }
 
 .reseau { 
@@ -75,7 +119,9 @@
 }
 
 .footer {
-	
-	position: static;
-	bottom: : 0px;
+	position:absolute; ;
+	bottom: 10px;
+	width: 100%;
+	 
+
 }
