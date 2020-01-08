@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+    body{
+        background-image: url(../asset/images/fondportable.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    .responsive-navigation{
+        display: block;
+        position: sticky;
+        top:15px;
+        z-index:999;
+    }
+    .responsive-footer{
+        display: block;
+        position: sticky;
+        bottom:15px;
+        z-index:999;
+    }
+    .navigation, .footer{
+        display: none;
+        
+    }
+
+}
