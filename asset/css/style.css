@@ -1,0 +1,130 @@
+ body{
+ 	background-image: url('../images/background.jpg');
+ 	background-repeat-x: no-repeat;
+ 	background-size: 100%;
+ 	background-repeat-y:repeat;
+ 	background-attachment: fixed;
+ 	problème opacity: mettre seulement sur background 
+
+
+ }
+
+ @media (max-width: 600px) {
+ 	body {
+ 		background-image: url('../images/fondportable.png');
+ 		background-repeat-x:no-repeat;
+ 		background-size: 100%;
+ 		background-repeat-y:repeat;
+ 		background-attachment: fixed;
+ 	}
+ 	}
+ } 
+
+ }
+
+#logo {
+	height: 15px ;
+
+	width: ;
+
+	margin: 15px;
+}
+
+
+#logo_fb {	
+	 height: 75px ;
+	 width:75px;
+	 margin-top:;
+}
+
+#logo_insta {	
+	 height: 75px; 
+	 width:75px;
+	 margin-top:5px ;
+}
+
+#logo_pinterest {	
+	 height:75px; 
+	 width:75px;
+	 margin-bottom:0px;
+}
+
+
+#zone_text {
+	z-index:666
+  border: 10px solid #e2921e;
+  height: 400px; 
+  width : 400px;
+  overflow: auto;
+  margin-left:100px;
+
+  <div class="scrollbar scrollbar-primary">
+  <div class="force-overflow"></div>
+</div>
+
+  
+
+
+  font-size: x-large ;
+  text-decoration: bold ; 
+
+
+}
+
+logo_newsletter {
+	height: auto;
+	width: auto;
+	position: static;
+	margin-left:150px;
+	top :0px; 
+
+}
+
+#i_produits {
+	height: ; 
+	width:;
+}
+
+
+#i_actu{
+	height:  ; 
+}
+
+
+#i_livreor{
+	height: ; 
+	width:;
+}
+
+#i_quisommenous{
+	height:auto ; 
+	width:auto;
+}
+.icone_accueil {
+	height: 150px;
+	width: 450px;
+	position: sticky;
+	margin-top: 15px;
+}
+.picture_corner_right { 
+	background-position:fixed;
+	height: 400px;
+	width: auto;
+ 	margin-top: 25px;
+ 	margin-right: 25px;
+ 	opacity: 0.6;
+}
+
+.reseau { 
+	padding-top: 1px;
+			padding-left: 45px;
+	
+}
+
+.footer {
+	position:fixed;
+	bottom: 10px;
+	width: 100%;
+	 
+
+}
