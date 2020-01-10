@@ -38,15 +38,15 @@
 }
 
 #logo_insta {	
-	 height: 75px ; 
+	 height: 75px; 
 	 width:75px;
-	 margin-top: ;
+	 margin-top:5px ;
 }
 
 #logo_pinterest {	
-	 height: 75px ; 
+	 height:75px; 
 	 width:75px;
-	 margin-top: ;
+	 margin-bottom:0px;
 }
 
 
@@ -55,8 +55,7 @@
   border: 10px solid #e2921e;
   height: 400px; 
   width : 400px;
-  overflow: ;
-  margin-bottom:px;
+  overflow: auto;
   margin-left:100px;
 
   
@@ -119,7 +118,7 @@ logo_newsletter {
 }
 
 .footer {
-	position:absolute; ;
+	position:fixed;
 	bottom: 10px;
 	width: 100%;
 	 
