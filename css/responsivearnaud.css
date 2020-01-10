@@ -14,12 +14,19 @@
     .responsive-footer{
         display: block;
         position: sticky;
-        bottom:15px;
+        bottom:0px;
         z-index:999;
     }
     .navigation, .footer{
-        display: none;
-        
+        display: none;    
     }
-
+    .none{
+        display: none;
+    }
+    .logo-responsive{
+        width :50px;
+    }
+    .bouton-nav-secondaire{
+        width: 215px;
+    }
 }
