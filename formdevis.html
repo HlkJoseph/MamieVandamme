@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mamie Vandamme/Devis</title>
+
+	<style>
+		.card {
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12" style="text-align: center;">
+				<h1>Demandez un devis gratuit&nbsp;!</h1>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<form id="formDevis" method="post">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Nom* : </label>
+							<input type="text" class="form-control" placeholder="Nom">
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Prénom* :</label>
+							<input type="text" class="form-control" placeholder="Prénom">
+						</div>		
+					</div>
+
+					<div class="col-md-6">
+						<div class="form-group">
+			    			<label for="email">E-mail * :</label>
+			    			<input type="email" class="form-control" id="email" placeholder="E-mail" aria-describedby="emailHelp">
+			    			<small id="emailHelp" class="form-text text-muted">Votre adresse e-mail est utilisée pour vous répondre et ne sera jamais communiquée à des tiers</small>
+			  			</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="Adresse">Adresse* : </label>
+							<input type="text" class="form-control" id="adresse"
+							placeholder="Adresse">
+			    			<small id="adresse" class="form-text text-muted">Adresse de livraison ou de la prestation</small>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="form-group">
+			    			<label for="telephone">Téléphone* :</label>
+			    			<input type ="text" class="form-control" id="telephone" placeholder="Téléphone">
+			    			<small id="emailHelp" class="form-text text-muted">Votre numéro téléphone est utilisé pour vous contacter en cas de besoin et ne sera jamais communiqué à des tiers</small>
+			  			</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<p></p>
+							<label for="descriptif">Descriptif, plan ou photo (optionnel)</label>
+							<input type="file" class="form-control-file" id="descriptif">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="form-group">
+							<p></p>
+							<label for="date">Date de la livraison ou de la prestation* :</label>
+							<input type="date" class="form-control-file" id="date">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<p></p>
+							<label for="Demande">Descriptif* :</label>
+			    			<textarea class="form-control" id="Demande" rows="8"></textarea>
+			  			</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<p>Les champs marqués d'un astérisque * sont obligatoires.</p>
+						<button type="button" class="btn btn-dark">Envoyer</button>
+						</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ </body>
