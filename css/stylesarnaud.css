@@ -1,36 +1,75 @@
+/* -------------------------------------------------------------------------------------------------------------- 
+PAGES GENERIQUE
+-------------------------------------------------------------------------------------------------------------- */
 body{
     background-image: url(../asset/images/fond2.png);
     background-size:100%;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
+@font-face {
+    font-family: 'forte';
+    src: url('fonts/FortMT/ForteMT.eot');
+    src: url('fonts/FortMT/ForteMT.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'century';
+    src: url('fonts/Century-Normal/Century-Normal.eot');
+    src: url('fonts/Century-Normal/Century-Normal.woff') format('woff');
+    font-style: normal;
+}
+h2{
+   font-family:'forte'; 
+}
+p{
+    font-family:'century'; 
+}
+ul {
+    list-style-type: none;
+ }
+ li{
+    font-family:'century';
+ }
+ li:before {
+    content: '- ';
+ }
+ /* -------------------- Header Navigation footer ----------------------------- */
 .header{
     margin-top:60px
-}
-.footer{
-    position: sticky;
-    bottom:30px;
-    width: 100%;
-}
-.responsive-navigation, .responsive-footer{
-    display:none;
 }
 #navigation{
     position: sticky;
     top: 15px;
 }
-.contenu-deroulant{
-    /* overflow:auto; 
-    height: 1400px;  */
-    /* border: 10px solid #AAAAAA; */
-    padding:15px;
-}
 .reseaux-img{
     width:50px;
     margin:15px;
 }
+.footer{
+    position: sticky;
+    bottom:30px;
+    width: 100%;
+    margin-top:50px;
+}
+/* -------------------- responsive ----------------------------- */
+.responsive-navigation, .responsive-footer{
+    display:none;
+}
+/* -------------------------------------------------------------------------------------------------------------- 
+PAGES PRODUIT
+-------------------------------------------------------------------------------------------------------------- */
 .img-actualite{
     background-image: url(../asset/icones/titre_actualites.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+.marge-produit{
+    margin-top: 15px;
+}
+.contour{
+    border: solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
 }
