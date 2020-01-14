@@ -1,0 +1,95 @@
+body{
+		background-image: url(asset/images/fond2.png);background-size:100%;background-repeat:no-repeat;background-repeat-y: repeat;background-attachment: fixed;
+}
+
+#logo {
+	height: 250px ;
+	width:px;
+	margin: 15px;
+}
+
+
+#logo_fb {	
+	 height: 75px ;
+	 width:75px;
+}
+
+#logo_insta {	
+	 height: 75px ; 
+	 width:75px;
+}
+
+#logo_pinterest {	
+	 height: 75px ; 
+	 width:75px;
+}
+
+
+#i_produits {
+	height: ; 
+	width:;
+}
+
+
+#i_actu{
+	height:  ; 
+}
+
+
+#i_livreor{
+	height: ; 
+	width:;
+}
+
+
+#i_quisommenous{
+	height:  ; 
+	width:;
+}
+
+.reseau { padding-top: 1px;
+			padding-left: 45px;
+	
+}
+
+.footer-md { 	
+	position: fixed; 
+	bottom: 15px;
+	margin-left: 250px
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    border-radius: 100%;
+	position: absolute; 
+	top: 10px;
+    border: 20px  solid #e2921e;
+
+}
+
+    .responsive-navigation{
+        display: none;
+        position: sticky;
+        top:15px;
+        z-index:999;
+    }
+    .responsive-footer{
+        display: none;
+        position: sticky;
+        bottom:0px;
+        z-index:999;
+    }
+    .navigation, .footer{
+        display: none;    
+    }
+    .none{
+        display: none;
+    }
+    .logo-responsive{
+        width :50px;
+    }
+    .bouton-nav-secondaire{
+        width: 215px;
+    }

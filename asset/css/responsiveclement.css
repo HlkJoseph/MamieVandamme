@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    body{
+        background-image: url(../asset/images/fondportable.png);
+        background-size:10%;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    .responsive-navigation{
+        display: block;
+        position: sticky;
+        top:15px;
+        z-index:999;
+    }
+    .responsive-footer{
+        display: block;
+        position: sticky;
+        bottom:0px;
+        z-index:999;
+    }
+    .navigation, .footer-md{
+        display: none;    
+    }
+    .none{
+        display: none;
+    }
+    .logo-responsive{
+        width :50px;
+    }
+    .bouton-nav-secondaire{
+        width: 215px;
+    }
+    .header{
+        display: none;    
+    }
+    .icones{
+        display: none;    
+    }
+    .reseaux-img{
+        width:50px;
+        margin:15px;
+    }
+        .img-acualite{
+        background-image: url(../icones/titre_actualites.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+        .img-livredor{
+        background-image: url(../icones/titre_livre_d_or.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+        .img-cgv{
+        background-image: url(../icones/titre_titre_cgv_ml.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+        .img-allergenes{
+        background-image: url(../icones/titre_allergènes.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }

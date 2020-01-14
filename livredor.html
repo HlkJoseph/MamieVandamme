@@ -5,76 +5,150 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="asset/css/style.actualites.css">
-
+	<link rel="stylesheet" href="asset/css/responsiveclement.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	<style type="text/css">
-		
-		body{
-				background-image: url(asset/images/fond2.png);background-size:100%;background-repeat:no-repeat;background-repeat-y: repeat;background-attachment: fixed;
-		}
-		@media (max-width: 600px) {
-
-			body{
-				background-image: url(asset/images/fondportable.png);background-size:100%;background-repeat:no-repeat;background-repeat-y: repeat;background-attachment: fixed;
-			}
-		}
-	</style>
+	
 
 </head>
-<body>
-	<section class="header">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4 text-left">
-					<a href="index.html"><img src="asset/icones/logo.png"></a>	
-				</div>
-				<div class="col-md-4 text-center">
-					<img src="asset/icones/titre_allergènes.png">
-				</div>
-				<div class="col-md-4 text-right">	
-					<a href="forminscription.html"><img src="asset/icones/boutonbiscuitlivredor.png"></a>
-				</div>			
-			</div>	
-		</div>
-	</section>
+	<body style= "background-image: url(asset/images/fond2.png);background-size:100%;background-repeat:no-repeat;background-repeat-y: repeat;background-attachment: fixed";>
+		
 
-	<section class="contenu">
-		<div class="container-fluid">
+		<section class="container-fluid responsive-navigation">
 			<div class="row">
-				<div class="col-md-3">
-					<a href="produits.html"><img src="asset/icones/icone_produits.png"title="Nos Produits" alt="Nos Produits"></a>
-					<a href="pageactualites.html"><img src="asset/icones/icone_actu.png"title="Actualités" alt="Actualités"></a>
-					<a href="livredor.html"><img src="asset/icones/icone_livredor.png"title="Livre d'or" alt="Livre d'or"></a>
-					<a href="quisommesnous.html"><img src="asset/icones/icone_quisommenous.png"title="Qui sommes nous?" alt="Qui sommes nous?"></a>
-				
-					<div class="col-12 text-left">
-						<a href="https://www.instagram.com/?hl=fr"target="_blank"><img src="asset/icones/logo_insta.png"></a>
-						<a href="https://www.facebook.com/"target="_blank"><img src="asset/icones/logo_fb.png"></a>
-						<a href="https://www.pinterest.fr/"target="_blank"><img src="asset/icones/logo_pin.png"></a>
-					</div>
+				<div class="col-md-12 text-center">
+					<nav class="navbar navbar-expand-lg navbar-light img-livredor">
+						<a class="navbar-brand" href="#"><img src="asset/icones/logo.png" class="logo-responsive"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-item nav-link disabled" href="produits.html"><img class="img-fluid"
+										src="asset/icones/icone_produits.png"title="Nos Produits" alt="Nos Produits"></a>
+								<a class="nav-item nav-link active" href="pageactualites.html"><img class="img-fluid"
+										src="asset/icones/icone_actu.png"title="Actualités" alt="Actualités"></a>
+								<a class="nav-item nav-link" href="livredor.html"><img class="img-fluid"
+										src="asset/icones/icone_livredor.png"title="Livre d'or" alt="Livre d'or"></a>
+								<a class="nav-item nav-link" href="pageequipe.html"><img class="img-fluid"
+										src="asset/icones/icone_quisommenous.png"title="Qui sommes nous" alt="Qui sommes nous"></a>
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-md-12 text-center">
+											<a href="https://www.instagram.com/?hl=fr" target="_blank">
+												<img class="img-fluid reseaux-img" src="asset/icones/logo_insta.png"></a>
+
+											<a href="https://www.facebook.com/" target="_blank">
+												<img class="img-fluid reseaux-img" src="asset/icones/logo_fb.png"></a>
+
+											<a href="https://www.pinterest.fr/" target="_blank">
+												<img class="img-fluid reseaux-img" src="asset/icones/logo_pin.png"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
 				</div>
-					<div class="col-md-3"style="overflow:auto; height: 400px; width: 1200px; border: 10px solid #e2921e">
+			</div>
+
+
+		</section>
+		
+
+		<section class="header">
+			<div class="container-fluid">
+				<div class="row">
+					
+					<div class="col-md-4 text-left">
+						<a href="index.html"><img src="asset/icones/logo.png"></a>	
+					</div>
+					
+					<div class="col-md-4 text-center">
+						<img src="asset/icones/titre_livre_d_or.png">
+					</div>	
+					
+					<div class="col-md-4 text-right">	
+					<a href="forminscription.html"><img src="asset/icones/boutonbiscuitlivredor.png"title="Commentaire" alt="Commentaire"></a>
+					</div>
+				</div>		
+
+				</div>	
+			</div>
+		</section>
+
+
+			<div class="row">
+
+					<div class="col-md-4 icones">
+						<a href="produits.html"><img src="asset/icones/icone_produits.png"title="Nos Produits" alt="Nos Produits"></a>
+						<a href="pageactualites.html"><img src="asset/icones/icone_actu.png"title="Actualités" alt="Actualités"></a>
+						<a href="livredor.html"><img src="asset/icones/icone_livredor.png"title="Livre d'or" alt="Livre d'or"></a>
+						<a href="pageequipe.html"><img src="asset/icones/icone_quisommenous.png"title="Qui sommes nous?" alt="Qui sommes nous?"></a>
+							<div>
+								<a href="https://www.instagram.com/?hl=fr"target="_blank"><img src="asset/icones/logo_insta.png"></a>
+								<a href="https://www.facebook.com/"target="_blank"><img src="asset/icones/logo_fb.png"></a>
+								<a href="https://www.pinterest.fr/"target="_blank"><img src="asset/icones/logo_pin.png"></a>
+							</div>
+
+
+					</div>
+					<div class="col-md-6 text-left"style="overflow:auto; height: 400px; width: 1200px; border: 10px solid #e2921e";>
+						<div class="container-fluid">
+					<div>
 						<img src="asset/images/jimmy.jpg">
 						<h1>"les meilleurs gâteaux que j'ai jamais mangés,BN c'est de la merde a coté"</h1>
 						<a></a>
 					</div>
-					<div class="col-md-3"style="overflow:auto; height: 400px; width: 1200px; border: 10px solid #e2921e">
+					<div>
 						<img src="asset/images/hugo.jpg">
 						<h1>"Ma vie a changé depuis que j'ai goûté à ses biscuits"</h1>
 						<a></a>
 					</div>
-					<div class="col-md-3"style="overflow:auto; height: 400px; width: 1200px; border: 10px solid #e2921e">
+					<div>
 						<img src="asset/images/nathalie.jpg">
 						<h1>"le service est impéccable, rien a redire"</h1>
 						<a></a>
 					</div>
->
-			</div>
-		</div>
-	</section>
+						</div>
+				</div>
 
-	<section class="footer">
+			</div>
+
+		
+
+
+		<section class="container-fluid responsive-footer">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a data-toggle="collapse" data-target="#footer" aria-controls="navbarNavAltMarkup"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<img src="asset/icones/icone_menu_secondaire.png" class="bouton-nav-secondaire">
+						</a>
+						<div class="collapse navbar-collapse" id="footer">
+							<div class="navbar-nav">
+								<a href="pagecgv.html">
+									<img src="asset/icones/icone_mention.png" class="img-fluid"title="Page CGV" alt="Page CGV">
+								</a>
+								<a href="plan.html">
+									<img src="asset/icones/icone_plan.png" class="img-fluid"title="Plan" alt="Plan">
+								</a>
+								<a href="pageallergenes.html">
+									<img src="asset/icones/icone_allerg.png" class="img-fluid"title="Allergènes" alt="Allergènes">
+								</a>
+								<a href="formcontact.html"><img src="asset/icones/boutonbiscuitnewsletter.pcg"></a>
+									<img src="asset/icones/icone_contact.png" class="img-fluid"title="Contact" alt="Contact">
+								</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</section>
+
+	<section class="footer-md">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-3">
@@ -87,7 +161,7 @@
 						<a href="pageallergenes.html"><img src="asset/icones/icone_allerg.png"title="Allergènes" alt="Allergènes"></a>	
 					</div>
 					<div class="col-md-3">	
-						<a href="contact.html"><img src="asset/icones/icone_contact.png"title="Contact" alt="Contact"></a>	
+						<a href="formlivredor.html"><img src="asset/icones/icone_contact.png"title="Contact" alt="Contact"></a>
 					</div>			
 				</div>	
 			</div>
@@ -97,8 +171,8 @@
 
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+	</html>
